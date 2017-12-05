@@ -1,0 +1,262 @@
+/* Los estilos de tu proyecto */
+*{
+  overflow-x: hidden;
+}
+
+body{
+  color: #FFFFFF;
+}
+
+nav{
+  width: 100%;
+}
+
+.taximg{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: 100%;
+  width: 100%;
+  max-height: 60em;
+  background-position: bottom;
+}
+
+.signin{
+  padding: 2em;
+  background-color: #ffb53d;
+  margin-top: 5em;
+  margin-bottom: 5em
+}
+
+
+h3{
+  margin-top: 1.2em;
+  margin-bottom: 1em;
+}
+
+/* texto linea atrás */
+.textline {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.textline:before,
+.textline:after {
+    background-color: #FFFFFF;
+    content: "";
+    display: inline-block;
+    height: 0.1em;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+}
+.textline:before {
+    right: 2em;
+    margin-left: -50%;
+}
+.textline:after {
+    left: 2em;
+    margin-right: -50%;
+}
+
+.logobl{
+  width: 3.3em;
+  height: 0.8em;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.yellow{
+  background-color: #ffb53d;
+  padding: 1em;
+}
+
+.line{
+  border: 0.12em solid #FFFFFF;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-left: none;
+}
+
+.iphone{
+  width: 60%;
+  height: 60%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+
+.textphone{
+  font-size: 1.3em;
+  line-height: 1.9;
+  text-align: justify;
+  padding-top: 2em;
+  padding-right: 7em;
+}
+
+.linem{
+  border: 0.12em solid #FFFFFF;
+  margin: 1em;
+  padding: 1em;
+}
+
+.iphonem{
+  width: 60%;
+  height: 60%;
+  padding: 1em;
+}
+
+.conductor{
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  max-height: 30em;
+  z-index: 1;
+  background-position: center;
+}
+
+.conductorm{
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  width: 100%;
+  max-height: 30em;
+  z-index: 1;
+  background-position: center;
+}
+
+.transparencia{
+  background-color: rgba(8,8,8,0.4);
+  max-width: 100%;
+  z-index: 2;
+  min-height: 19em;
+  max-height: -webkit-fill-available;
+  padding: 2em
+}
+
+.inputclass{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.input1{
+  width: 28em;
+  height: 3em;
+  margin-left: 1em;
+  padding-left: 1em;
+  background-color: transparent;
+  border: 0.1em solid #FFFFFF;
+  border-radius: 0.4em;
+}
+
+.input1::placeholder{
+  color: #FFFFFF;
+}
+
+.input1:focus{
+  outline: none;
+}
+
+.botoncito{
+  margin-left: 12.5em;
+}
+
+.linemap{
+  border: 0.12em solid #FFFFFF;
+  margin: 1.5;
+  padding: 1em;
+}
+
+.iframe1{
+  width: 100%;
+  height: 25em;
+}
+
+.input2{
+  width: 20em;
+  height: 3em;
+  margin-left: 1em;
+  padding-left: 1em;
+  background-color: transparent;
+  border: 0.1em solid #FFFFFF;
+  border-radius: 0.4em;
+}
+
+.input2::placeholder{
+  color: #FFFFFF;
+}
+
+.input2:focus{
+  outline: none;
+}
+
+.botoncito2{
+  margin-top: 1em;
+  margin-left: 8em;
+  margin-bottom: 2em;
+}
+
+.iframe2{
+  width:100%;
+  height: 16em;
+}
+
+/*Estilos footer*/
+.grey{
+  background-color: #292929;
+}
+
+.labcarfoot{
+  margin-top: 3em;
+}
+
+.linkfooter a{
+  color: #b8b8b8;
+  text-decoration: none;
+}
+
+.linkfooter a:active{
+  color: #b8b8b8;
+}
+
+.linkfooter a:hover{
+  text-decoration: underline;
+  color:#b8b8b8;
+}
+
+.linkfooter{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.linkfooter1{
+  margin-top: 18.1em;
+  font-size: 1em;
+}
+
+.fa{
+  margin-right: 0.6em;
+}
+
+.logostore{
+  margin-top: 10em;
+}
+
+
+.store{
+  width: 10em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.store1{
+  width: 10em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.pfoot{
+  margin-bottom: 3em;
+  color: #b8b8b8;
+}
